@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#game {
+    margin: 20px;
+}
+
+button {
+    padding: 150px 150px;
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 2em;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #00FF00;
+    transform: scale(1.1);
+}
+
+#result, #score {
+    margin-top: 120px;
+    font-size: 2em;
+}
